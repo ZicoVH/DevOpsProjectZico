@@ -19,12 +19,9 @@ jobs:
         dotnet-version: 5.0.x
     - name: Restore dependencies
       run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+
     - name: Publish
-      run: dotnet publish CaseStudyZico.sln
+      run: dotnet publish -r CaseStudyZico.sln -c Release /p:PublishSingleFile=true
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.3.1
       with:
