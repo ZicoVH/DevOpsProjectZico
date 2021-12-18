@@ -30,7 +30,7 @@ jobs:
       with:
     # Artifact name
         name: PeriodicSystem # optional, default is artifact
-        path: CaseStudyZico/bin/Debug/net5.0-windows/CaseStudyZico.exe
+        path: CaseStudyZico/bin/Debug/net5.0-windows
         if-no-files-found: error
     # The desired behavior if no files are found using the provided path.
 
