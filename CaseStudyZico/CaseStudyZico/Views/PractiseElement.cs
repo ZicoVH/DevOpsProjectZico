@@ -75,5 +75,11 @@ namespace CaseStudyZico
         {
             LoadTheme();
         }
+
+        private void btnClearAll_Click(object sender, EventArgs e)
+        {
+            atomRepository.ClearAll();
+            listBox1.Items.Clear();
+        }
     }
 }

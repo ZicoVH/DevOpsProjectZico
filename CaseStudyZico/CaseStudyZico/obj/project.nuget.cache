@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hM96SdNFL0tyZXQrz3A5Yk4yIYOypVfKitKeNX3xPTBzdU95jJHaeZD4tAvnBi05M++jIVtbPWnlrVloPAdL9Q==",
+  "dgSpecHash": "PY5UexnUlaRkvePESKhQfTBAXQFM3muNipTi2Armitlw4k5e98Wly3NQ6NvH+SB8Fissn3/M/kqJrSiS3QRQBQ==",
   "success": true,
-  "projectFilePath": "C:\\School\\2ITF\\sem1\\DevOps\\project2\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\CaseStudyZico.csproj",
+  "projectFilePath": "C:\\School\\2ITF\\sem1\\DevOps\\PeriodicSystem\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\CaseStudyZico.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zicov\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\zicov\\.nuget\\packages\\microsoft.data.sqlite\\6.0.1\\microsoft.data.sqlite.6.0.1.nupkg.sha512",

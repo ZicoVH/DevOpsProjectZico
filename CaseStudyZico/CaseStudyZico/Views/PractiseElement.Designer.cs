@@ -34,6 +34,7 @@ namespace CaseStudyZico
             this.btnAddElement = new System.Windows.Forms.Button();
             this.InsertDatatxt = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnClearAll = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -69,25 +70,38 @@ namespace CaseStudyZico
             // 
             // InsertDatatxt
             // 
-            this.InsertDatatxt.Location = new System.Drawing.Point(435, 116);
+            this.InsertDatatxt.Location = new System.Drawing.Point(375, 131);
             this.InsertDatatxt.Name = "InsertDatatxt";
-            this.InsertDatatxt.Size = new System.Drawing.Size(248, 31);
+            this.InsertDatatxt.Size = new System.Drawing.Size(362, 31);
             this.InsertDatatxt.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(488, 73);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(435, 73);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 25);
+            this.label1.Size = new System.Drawing.Size(236, 41);
             this.label1.TabIndex = 11;
             this.label1.Text = "Add an element:";
+            // 
+            // btnClearAll
+            // 
+            this.btnClearAll.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnClearAll.Location = new System.Drawing.Point(475, 276);
+            this.btnClearAll.Name = "btnClearAll";
+            this.btnClearAll.Size = new System.Drawing.Size(179, 87);
+            this.btnClearAll.TabIndex = 12;
+            this.btnClearAll.Text = "Clear All";
+            this.btnClearAll.UseVisualStyleBackColor = true;
+            this.btnClearAll.Click += new System.EventHandler(this.btnClearAll_Click);
             // 
             // PractiseElement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnClearAll);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnDelElement);
@@ -108,5 +122,6 @@ namespace CaseStudyZico
         private System.Windows.Forms.Button btnAddElement;
         private System.Windows.Forms.TextBox InsertDatatxt;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnClearAll;
     }
 }

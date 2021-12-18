@@ -40,6 +40,16 @@ namespace CaseStudyZico.DAL
             }
         }
 
+        public int ClearAll()
+        {
+            string sql = "Delete FROM History;";
+            using (var connection = DbConnectionFactory())
+            {
+                connection.Open();
+                return connection.Execute(sql);
+            }
+        }
+
         public IEnumerable<AddElement> GetSearchHistory()
         {
             string sql = "SELECT * FROM History;";

@@ -38,10 +38,9 @@ namespace CaseStudyZico.Views
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(272, 62);
+            this.label1.Location = new System.Drawing.Point(59, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(203, 41);
             this.label1.TabIndex = 7;
@@ -49,9 +48,8 @@ namespace CaseStudyZico.Views
             // 
             // nametxt
             // 
-            this.nametxt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.nametxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nametxt.Location = new System.Drawing.Point(558, 68);
+            this.nametxt.Location = new System.Drawing.Point(345, 76);
             this.nametxt.Name = "nametxt";
             this.nametxt.Size = new System.Drawing.Size(218, 35);
             this.nametxt.TabIndex = 6;
@@ -69,9 +67,8 @@ namespace CaseStudyZico.Views
             // 
             // btnSearch
             // 
-            this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSearch.Location = new System.Drawing.Point(558, 111);
+            this.btnSearch.Location = new System.Drawing.Point(345, 119);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(218, 94);
             this.btnSearch.TabIndex = 4;

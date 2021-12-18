@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\School\\2ITF\\sem1\\DevOps\\project2\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\CaseStudyZico.csproj": {}
+    "C:\\School\\2ITF\\sem1\\DevOps\\PeriodicSystem\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\CaseStudyZico.csproj": {}
   },
   "projects": {
-    "C:\\School\\2ITF\\sem1\\DevOps\\project2\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\CaseStudyZico.csproj": {
+    "C:\\School\\2ITF\\sem1\\DevOps\\PeriodicSystem\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\CaseStudyZico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\School\\2ITF\\sem1\\DevOps\\project2\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\CaseStudyZico.csproj",
+        "projectUniqueName": "C:\\School\\2ITF\\sem1\\DevOps\\PeriodicSystem\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\CaseStudyZico.csproj",
         "projectName": "CaseStudyZico",
-        "projectPath": "C:\\School\\2ITF\\sem1\\DevOps\\project2\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\CaseStudyZico.csproj",
+        "projectPath": "C:\\School\\2ITF\\sem1\\DevOps\\PeriodicSystem\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\CaseStudyZico.csproj",
         "packagesPath": "C:\\Users\\zicov\\.nuget\\packages\\",
-        "outputPath": "C:\\School\\2ITF\\sem1\\DevOps\\project2\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\obj\\",
+        "outputPath": "C:\\School\\2ITF\\sem1\\DevOps\\PeriodicSystem\\DevOpsProjectZico\\CaseStudyZico\\CaseStudyZico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zicov\\AppData\\Roaming\\NuGet\\NuGet.Config",
