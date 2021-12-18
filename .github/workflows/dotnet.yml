@@ -1,0 +1,33 @@
+name: Continuous Integration Continuous Deployment
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Publish
+      run: dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.3.1
+      with:
+    # Artifact name
+        name: PeriodicSystem # optional, default is artifact
+        path: CaseStudyZico/bin/Debug/net5.0-windows
+        if-no-files-found: error
+    # The desired behavior if no files are found using the provided path.
+
