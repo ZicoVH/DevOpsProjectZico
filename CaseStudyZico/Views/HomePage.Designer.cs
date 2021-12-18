@@ -31,8 +31,6 @@ namespace CaseStudyZico
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.btnSearchName = new System.Windows.Forms.Button();
             this.btnSearchElement = new System.Windows.Forms.Button();
             this.btnPractiseElement = new System.Windows.Forms.Button();
@@ -49,8 +47,6 @@ namespace CaseStudyZico
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.panelMenu.Controls.Add(this.button4);
-            this.panelMenu.Controls.Add(this.button3);
             this.panelMenu.Controls.Add(this.btnSearchName);
             this.panelMenu.Controls.Add(this.btnSearchElement);
             this.panelMenu.Controls.Add(this.btnPractiseElement);
@@ -61,38 +57,6 @@ namespace CaseStudyZico
             this.panelMenu.Size = new System.Drawing.Size(220, 579);
             this.panelMenu.TabIndex = 8;
             // 
-            // button4
-            // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button4.Location = new System.Drawing.Point(0, 320);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(220, 60);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "button5";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button3.Location = new System.Drawing.Point(0, 260);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(220, 60);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "button4";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // btnSearchName
             // 
             this.btnSearchName.Dock = System.Windows.Forms.DockStyle.Top;
@@ -100,10 +64,10 @@ namespace CaseStudyZico
             this.btnSearchName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearchName.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSearchName.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnSearchName.Location = new System.Drawing.Point(0, 200);
+            this.btnSearchName.Location = new System.Drawing.Point(0, 412);
             this.btnSearchName.Name = "btnSearchName";
             this.btnSearchName.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnSearchName.Size = new System.Drawing.Size(220, 60);
+            this.btnSearchName.Size = new System.Drawing.Size(220, 166);
             this.btnSearchName.TabIndex = 3;
             this.btnSearchName.Text = "Get By Name";
             this.btnSearchName.UseVisualStyleBackColor = true;
@@ -116,10 +80,10 @@ namespace CaseStudyZico
             this.btnSearchElement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearchElement.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSearchElement.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnSearchElement.Location = new System.Drawing.Point(0, 140);
+            this.btnSearchElement.Location = new System.Drawing.Point(0, 246);
             this.btnSearchElement.Name = "btnSearchElement";
             this.btnSearchElement.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnSearchElement.Size = new System.Drawing.Size(220, 60);
+            this.btnSearchElement.Size = new System.Drawing.Size(220, 166);
             this.btnSearchElement.TabIndex = 2;
             this.btnSearchElement.Text = "Get By Number";
             this.btnSearchElement.UseVisualStyleBackColor = true;
@@ -135,7 +99,7 @@ namespace CaseStudyZico
             this.btnPractiseElement.Location = new System.Drawing.Point(0, 80);
             this.btnPractiseElement.Name = "btnPractiseElement";
             this.btnPractiseElement.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnPractiseElement.Size = new System.Drawing.Size(220, 60);
+            this.btnPractiseElement.Size = new System.Drawing.Size(220, 166);
             this.btnPractiseElement.TabIndex = 1;
             this.btnPractiseElement.Text = "Practise Elements";
             this.btnPractiseElement.UseVisualStyleBackColor = true;
@@ -206,7 +170,7 @@ namespace CaseStudyZico
             this.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "HomePage";
-            this.Text = "Dashboard";
+            this.Text = "Periodic System of Elements";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
@@ -217,8 +181,6 @@ namespace CaseStudyZico
         }
         #endregion
         private System.Windows.Forms.Panel panelMenu;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnSearchName;
         private System.Windows.Forms.Button btnSearchElement;
         private System.Windows.Forms.Button btnPractiseElement;
